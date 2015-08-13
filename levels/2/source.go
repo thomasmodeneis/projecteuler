@@ -19,7 +19,6 @@ import (
 )
 
 func main() {
-  f1,f2 := 1,1
   sum := 0
   // EDITABLE OMIT
 

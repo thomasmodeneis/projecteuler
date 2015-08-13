@@ -1,6 +1,6 @@
-Mission: All Aboard
+Mission: Multiples of 3 and 5
 
-* All Aboard
+* Multiples of 3 and 5
 
 .code source.go /START OMIT/,/EDITABLE OMIT/
 .play source.go /EDITABLE OMIT/,/UNEDITABLE OMIT/

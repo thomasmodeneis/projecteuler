@@ -6,8 +6,8 @@ answer['2-lord']='da51d72322c22a824a1c50ec65a03393c3da6c7e6996fdb9d64f19a9071325
 
 
 // To encrypt
-console.log("answer['1-blue']='" + CryptoJS.SHA3("233168") + "';")
-console.log("answer['1-lord']='" + CryptoJS.SHA3("233168") + "';")
+console.log("answer['1-blue']='" + CryptoJS.SHA3("233168") + "';");
+console.log("answer['1-lord']='" + CryptoJS.SHA3("233168") + "';");
 
-console.log("answer['2-blue']='" + CryptoJS.SHA3("4613732") + "';")
-console.log("answer['2-lord']='" + CryptoJS.SHA3("4613732") + "';")
+console.log("answer['2-blue']='" + CryptoJS.SHA3("4613732") + "';");
+console.log("answer['2-lord']='" + CryptoJS.SHA3("4613732") + "';");

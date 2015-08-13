@@ -15,24 +15,16 @@ import (
 )
 
 func main() {
-  fib := []int{2,0}
-  i := 0
-  summed := 0;
-
-  total := f(i,summed,fib)
-
+  total := getMultiples(0,1000)
   fmt.Println(total)
 }
 
-func f(i,summed int, fib []int) (int) {
+func getMultiples(i, m int64) (t int64) {
   // EDITABLE OMIT
 
   // Your code
 
   // UNEDITABLE OMIT
-  return summed
+  return t
 }
 // END OMIT
-
-
-
