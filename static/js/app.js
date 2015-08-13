@@ -299,10 +299,10 @@ function openingScene() {
 // replaces the persona name in any source code
 function replaceName() {
   if(persona == 'lord') {
-    $('iframe#game').contents().find("div#editor span:contains('Jason Marshall')").each(function(){
+    $('iframe#game').contents().find("div#editor span:contains('Gopher Blue')").each(function(){
       $this = $(this);
       content = $this.text();
-      $this.text(content.replace('Jason Marshall', 'Dee Fercloze'));
+      $this.text(content.replace('Gopher Blue', 'Gopher Lord'));
     });
   }
 }
@@ -339,11 +339,11 @@ function validateLevel() {
 }
 
 function getFailMessage() {
-  you = "ma'am";
-  other_persona = "Jason";
+  you = "Sir";
+  other_persona = "Gopher Lord";
   if(persona == "blue") {
-    you = "mate";
-    other_persona = "Dee";
+    you = "Sir";
+    other_persona = "Gopher Blue";
   }
 
   choice = Math.floor(Math.random() * 25)
@@ -379,11 +379,11 @@ function getFailMessage() {
 }
 
 function getSuccessMessage() {
-  you = "Ma'am";
-  other_persona = "Jason";
+  you = "Sir";
+  other_persona = "Gopher Blue";
   if(persona == "blue") {
     you = "Sir";
-    other_persona = "Dee";
+    other_persona = "Gopher Lord";
   }
 
   choice = Math.floor(Math.random() * 25)
