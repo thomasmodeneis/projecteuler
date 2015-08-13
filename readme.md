@@ -48,6 +48,18 @@ Visit `http://127.0.0.1:3999` in your browser
 
 Enjoy hacking o/
 
+DEV
+===
+
+* Run locally with appengine
+`$ goapp serve -port=8081`
+
+* Deploy to prod
+`$ appcfg.py update -A goprojecteuler -V 1 /opt/gocode/src/github.com/gibraltargolang/projecteuler`
+
+* Rollback deployment
+`$ appcfg.py rollback -A goprojecteuler -V 1 /opt/gocode/src/github.com/gibraltargolang/projecteuler`
+
 
 Credits
 =====
