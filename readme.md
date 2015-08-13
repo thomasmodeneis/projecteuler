@@ -3,6 +3,8 @@ Description
 
 Project Euler A Golang hacking mission
 
+ [Go Project Euler Website](http://goprojecteuler.appspot.com/)
+
 ** Who's It For? **
 Developers of all experience levels
 
