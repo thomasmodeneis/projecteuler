@@ -1,6 +1,6 @@
-Mission: Even Fibonacci numbers
+Mission: All Aboard
 
-* Even Fibonacci numbers
+* All Aboard
 
 .code source.go /START OMIT/,/EDITABLE OMIT/
 .play source.go /EDITABLE OMIT/,/UNEDITABLE OMIT/

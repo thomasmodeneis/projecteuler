@@ -42,7 +42,7 @@ Download Go's present tool:
 
 cd into project directory
 
-`present -base=.`
+`$ present -base=. -orighost=localhost -play=true`
 
 Visit `http://127.0.0.1:3999` in your browser
 
