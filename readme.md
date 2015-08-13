@@ -50,8 +50,8 @@ Visit `http://127.0.0.1:3999` in your browser
 
 Enjoy hacking o/
 
-DEV
-===
+APP ENGINE DEV
+===============
 
 * Run locally with appengine
 `$ goapp serve -port=8081`
