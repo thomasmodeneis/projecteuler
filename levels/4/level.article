@@ -1,6 +1,6 @@
-Mission: Largest prime factor
+Mission: Largest palindrome product
 
-* Largest prime factor
+* Largest palindrome product
 
 .code source.go /START OMIT/,/EDITABLE OMIT/
 .play source.go /EDITABLE OMIT/,/UNEDITABLE OMIT/

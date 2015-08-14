@@ -14,8 +14,9 @@ import (
 )
 
 func main() {
-  numm := 600851475143
-  largestFact := 0
+
+  var numm = int64(600851475143)
+  var largestFact int64
   // EDITABLE OMIT
 
   // Your code
