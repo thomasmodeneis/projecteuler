@@ -35,9 +35,10 @@ Usage
 
 `git clone https://github.com/gophergala/operation-go.git`
 
-Download Go's present tool:
+Download required GOPATH, or install it via go get.
+More info on: https://godoc.org/golang.org/x/tools/cmd/present
 
-`go get code.google.com/p/go.tools/cmd/present`
+`git clone https://github.com/gibraltargolang/projecteuler-gopath.git`
 
 
 ** Run **
