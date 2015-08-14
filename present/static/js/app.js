@@ -1,4 +1,4 @@
-OAuth.initialize('PJwJfQ241P-NtKscEwjbWP2QH-g');
+OAuth.initialize('YJTrHFx8lKZCvBbeKMFuAdxIiPY');
 
 // Global Vars
 var alias = "";
