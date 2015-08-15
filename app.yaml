@@ -14,5 +14,5 @@ handlers:
   script: _go_app
 
 nobuild_files:
-  ^present/levels/
+  ^levels/
   ^src
