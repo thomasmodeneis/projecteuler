@@ -124,11 +124,11 @@ function githubLogin() {
       openingScene();
     })
     .fail(function (err) {
-      //alert("Error logging in to GitHub: " + err)
+      console.log("Error logging in to GitHub: " + err)
     });
   })
   .fail(function (err) {
-    //alert("Error connecting to OAuth.io: " + err)
+    console.log("Error connecting to OAuth.io: " + err)
   });
 }
 
@@ -346,7 +346,7 @@ function getFailMessage() {
     other_persona = "Gopher Blue";
   }
 
-  choice = Math.floor(Math.random() * 25)
+  choice = Math.floor(Math.random() * 25);
 
   message = new Array();
   message[0] = "Sorry " + you + ", but you'll be back at basic with solutions like these.";
@@ -374,6 +374,7 @@ function getFailMessage() {
   message[22] = "OK, now try writing some good code.";
   message[23] = "Yep, I mean nope. Sorry.";
   message[24] = "This is an in-and-out mission, please keep that in mind.";
+  message[25] = "OK, try it again after this joke: A SQL query goes into a bar, walks up to two tables and asks, 'Can I join you?'";
 
   return message[choice];
 }

@@ -6,7 +6,8 @@ Project Euler A Golang hacking mission
 Website: [Go Project Euler Website](http://goprojecteuler.appspot.com/)
 
 ** Who's It For? **
-Developers of all experience levels
+
+* Developers of all experience levels
 
 ** Why Should you play this? **
 
@@ -37,6 +38,7 @@ Usage
 ** Installing **
 
 Download required [*Present](https://godoc.org/golang.org/x/tools/cmd/present), or install it via go get.
+`go get golang.org/x/tools/cmd/present`
 * There are no external dependencies, no VENDOR needed.
 
 ** Running **
@@ -44,7 +46,7 @@ Download required [*Present](https://godoc.org/golang.org/x/tools/cmd/present), 
 There are two ways to run this project:
 
 # 1. Using Golang Present directly:
-`$ present -base=. -orighost=localhost -play=true`
+`present -base=present -orighost=localhost -play=true`
 
 Visit `http://127.0.0.1:3999` in your browser
 
@@ -70,7 +72,7 @@ APP ENGINE DEV
 
 
 Levels:
-Right now, there are 5 levels of this game done, But we are looking for other Gophers who are looking to contribute and add new levels.
+Right now, there are 6 levels of this game done, But we are looking for other Gophers who are looking to contribute and add new levels.
 Please feel free to submit PRs, they will be very appreciated! :)
 
 
