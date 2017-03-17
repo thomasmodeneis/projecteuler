@@ -35,12 +35,16 @@ func main() {
 			fmt.Printf("Good job, Sum Square %d is equals to Diff %d\n", test.limit, test.expected)
 		}
 	}
+
+
 }
 
-// EDITABLE OMIT
 func sumSquare(limit int) (sum int) {
 	// Your code here
-
+	// EDITABLE OMIT
+	for i := 1; i <= limit; i++ {
+		sum = sum + (i * i)
+	}
 	// END OMIT
 	return sum
 }
@@ -48,7 +52,9 @@ func sumSquare(limit int) (sum int) {
 func squareSum(limit int) (sum int) {
 	// Your code here
 	// EDITABLE OMIT
-
+	for i := 1; i <= limit; i++ {
+		sum = sum + i
+	}
 	// END OMIT
 	return sum * sum
 }
