@@ -330,7 +330,7 @@ function validateLevel() {
     stdout.html(stdout.html() + "<span class='success'>" + success + "</span>");
     setTimeout(function() {
       nextLevel(level);
-    }, 1500);
+    }, 3500);
   } else {
     // wrong solution - post a sorry message
     fail = getFailMessage();

@@ -21,7 +21,6 @@ type testpair struct {
 }
 
 var tests = []testpair{
-	{10, 2640},
 	{100, 25164150},
 }
 
