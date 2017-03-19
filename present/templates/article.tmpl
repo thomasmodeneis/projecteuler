@@ -13,12 +13,12 @@
 
 <body class="fadebg">
   <section id="navbar" class="slidedown hide">
-    <h2>Project Euler: A Golang hacking mission</h2>
+    <h2>Project Euler: A Golang hacking mission - <span><a style="cursor: pointer; cursor: hand;" onclick="return false;" id="sound">Sound ON/OFF &#128266;</a></span></h2>
     <div id="player">
       <span id="avatar"></span>
       <span id="alias"></span>
       <ul id="subnav">
-        <li><a href="/" onclick="return false;" id="restart">Restart &rarr;</a></li>
+        <li><a href="/" style="cursor: pointer; cursor: hand;" onclick="return false;" id="restart">Restart &rarr;</a></li>
       </ul>
     </div>
   </section>
@@ -45,4 +45,13 @@
   </script>
 </body>
 </html>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-86749516-1', 'auto');
+  ga('send', 'pageview');
+</script>
 {{end}}
