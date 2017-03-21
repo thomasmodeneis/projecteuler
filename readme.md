@@ -65,10 +65,10 @@ APP ENGINE DEV
 `$ goapp serve -port=8081`
 
 * Deploy to prod
-`$ appcfg.py update -A goprojecteuler -V 1 /opt/gocode/src/github.com/thomasmodeneis/projecteuler`
+`$ appcfg.py update -A goprojecteuler -V 1 /opt/gocode/src/github.com/projecteuler`
 
 * Rollback deployment
-`$ appcfg.py rollback -A goprojecteuler -V 1 /opt/gocode/src/github.com/thomasmodeneis/projecteuler`
+`$ appcfg.py rollback -A goprojecteuler -V 1 /opt/gocode/src/github.com/projecteuler`
 
 
 Levels:
